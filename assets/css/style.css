@@ -87,6 +87,11 @@ a:active {
     margin: 0 auto 50px auto;
 }
 
+#photo {
+    width: 200px;
+    height: 200px;
+}
+
 #portfolio {
     position: relative;
     margin: 0px;
@@ -152,24 +157,9 @@ a:active {
     left: 130px;
 }
 
-#photo {
-    width: 200px;
-    height: 200px;
-}
-
 .icons {
     float: left;
     margin: 20px 130px 20px 130px;
-}
-
-.overlay {
-    display: inline-block;
-    width: 200px;
-    height: 20px;
-    padding: 5px 0px 5px 0px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
 }
 
 .clearfix {
