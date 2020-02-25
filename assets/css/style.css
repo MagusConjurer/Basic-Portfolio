@@ -9,7 +9,7 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#about {
+#top {
     color: #4aaaa5;
 }
 
@@ -85,6 +85,71 @@ a:active {
     min-height: 50vh;
     padding: 20px;
     margin: 0 auto 50px auto;
+}
+
+#portfolio {
+    position: relative;
+    margin: 0px;
+}
+
+#hangman {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    top: 200px;
+    left: 130px;
+}
+
+#rpg {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    top: 200px;
+    right: 130px;
+}
+
+#trivia {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    top: 450px;
+    left: 130px;
+}
+
+#rutgers {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    top: 450px;
+    right: 130px;
+}
+
+#rps {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    top: 700px;
+    left: 130px;
 }
 
 #photo {
