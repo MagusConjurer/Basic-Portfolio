@@ -64,11 +64,16 @@ a:active {
     text-decoration: underline;
 }
 
+#container {
+    position: relative;
+    min-height: 100vh;
+}
+
 .main {
     overflow: auto;
     background-image: url(../images/brickwall/brickwall.png);
     width: 100%;
-    min-height: 75vh;
+    min-height: 81vh;
     padding: 50px 0px 50px 0px;
     margin-bottom: -70px;
 }
@@ -77,23 +82,44 @@ a:active {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 920px;
-    min-height: 80%;
+    min-height: 50vh;
     padding: 20px;
     margin: 0 auto 50px auto;
 }
 
-#container {
-    position: relative;
-    min-height: 100vh;
+#photo {
+    width: 200px;
+    height: 200px;
+}
+
+.icons {
+    float: left;
+    margin: 20px 130px 20px 130px;
+}
+
+.overlay {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 footer {
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 52px;
     padding-top: 10px;
 }
 
