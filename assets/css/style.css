@@ -6,7 +6,10 @@ body {
 }
 
 h1 {
+    font-size: 24px;
+    font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px;
 }
 
 #top {
@@ -35,7 +38,7 @@ header {
     color: #ffffff;
     margin: 0px;
     width: 190px;
-    padding: 27px;
+    padding: 28px;
 }
 
 #links {
@@ -78,7 +81,7 @@ a:active {
     margin-bottom: -70px;
 }
 
-#content {
+.content {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 920px;
@@ -90,6 +93,8 @@ a:active {
 #photo {
     width: 200px;
     height: 200px;
+    float: left;
+    margin-right: 20px;
 }
 
 #portfolio {
@@ -105,7 +110,7 @@ a:active {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 200px;
+    top: 205px;
     left: 130px;
 }
 
@@ -117,7 +122,7 @@ a:active {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 200px;
+    top: 205px;
     right: 130px;
 }
 
@@ -129,7 +134,7 @@ a:active {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 430px;
+    top: 410px;
     left: 130px;
 }
 
@@ -141,7 +146,7 @@ a:active {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 430px;
+    top: 410px;
     right: 130px;
 }
 
@@ -153,13 +158,13 @@ a:active {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 640px;
+    top: 620px;
     left: 130px;
 }
 
 .icons {
     float: left;
-    margin: 10px 130px 10px 130px;
+    margin: 5px 130px 0px 130px;
 }
 
 .clearfix {
@@ -181,5 +186,6 @@ footer {
 #copyright {
     width: 960px;
     text-align: center;
+    padding-top: 25px;
     margin: 0 auto;
 }
